@@ -1,0 +1,31 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: weather-monitor
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/weather_monitor?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai&characterEncoding=utf8&rewriteBatchedStatements=true
+    username: weather
+    password: Weather@2026
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jackson:
+    time-zone: Asia/Shanghai
+
+weather:
+  monitor:
+    # Open-Meteo 免费天气 API（无需 Key）
+    api-url: https://api.open-meteo.com/v1/forecast
+    # 每天早上 7 点抓取一次（Asia/Shanghai）
+    cron: "0 0 7 * * ?"
+    # 每次抓取未来 N 天（含今天）的预报，重复抓取自动覆盖更新
+    forecast-days: 3
+    # 一次 HTTP 请求批量查询的城市数
+    batch-size: 50
+    # 应用启动后立即执行一次抓取
+    run-on-startup: true
+    # 失败重试次数
+    retry-times: 3
+    # 出站代理（不需要代理时留空即可），例如 127.0.0.1 / 18080
+    proxy-host: ""
+    proxy-port: 0

@@ -1,0 +1,13 @@
+/workspace/weather-monitor/src/main/java/com/weather/monitor/web/WeatherQueryController.java
+/workspace/weather-monitor/src/main/java/com/weather/monitor/repository/CityRepository.java
+/workspace/weather-monitor/src/main/java/com/weather/monitor/repository/FetchLogRepository.java
+/workspace/weather-monitor/src/main/java/com/weather/monitor/model/City.java
+/workspace/weather-monitor/src/main/java/com/weather/monitor/service/WmoCode.java
+/workspace/weather-monitor/src/main/java/com/weather/monitor/service/OpenMeteoClient.java
+/workspace/weather-monitor/src/main/java/com/weather/monitor/job/DailyWeatherJob.java
+/workspace/weather-monitor/src/main/java/com/weather/monitor/repository/WeatherRepository.java
+/workspace/weather-monitor/src/main/java/com/weather/monitor/model/DailyWeather.java
+/workspace/weather-monitor/src/main/java/com/weather/monitor/config/WeatherMonitorProperties.java
+/workspace/weather-monitor/src/main/java/com/weather/monitor/model/SyncResult.java
+/workspace/weather-monitor/src/main/java/com/weather/monitor/service/WeatherSyncService.java
+/workspace/weather-monitor/src/main/java/com/weather/monitor/WeatherMonitorApplication.java

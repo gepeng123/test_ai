@@ -1,0 +1,13 @@
+com/weather/monitor/repository/WeatherRepository.class
+com/weather/monitor/job/DailyWeatherJob.class
+com/weather/monitor/config/WeatherMonitorProperties.class
+com/weather/monitor/model/DailyWeather.class
+com/weather/monitor/service/WmoCode.class
+com/weather/monitor/repository/FetchLogRepository.class
+com/weather/monitor/repository/CityRepository.class
+com/weather/monitor/model/SyncResult.class
+com/weather/monitor/WeatherMonitorApplication.class
+com/weather/monitor/service/OpenMeteoClient.class
+com/weather/monitor/web/WeatherQueryController.class
+com/weather/monitor/model/City.class
+com/weather/monitor/service/WeatherSyncService.class
